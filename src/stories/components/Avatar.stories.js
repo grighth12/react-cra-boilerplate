@@ -25,7 +25,7 @@ export const Default = (args) => {
   return <Avatar {...args} />;
 };
 
-export const Group = (args) => {
+export const Disabled = (args) => {
   return (
     <Avatar.Group {...args} size={40}>
       <Avatar src="https://picsum.photos/200?1" />
@@ -35,3 +35,5 @@ export const Group = (args) => {
     </Avatar.Group>
   );
 };
+
+
